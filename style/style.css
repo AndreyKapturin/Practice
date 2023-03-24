@@ -1,3 +1,29 @@
 body {
-    background-color: aqua;
+    background-color: whitesmoke;
+    margin: 0;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cards {
+    background-color: bisque;
+    border-radius: 50px;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.card {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid 1px burlywood;
+    box-shadow: 0 0 10px 0px black;
 }
